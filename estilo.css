@@ -305,7 +305,7 @@ margin-top: 100px;
    margin-bottom: 20px;
 }
 #seccion4 .contenedor-estilo1 .caja2 span{
-    color:rgba(68, 68, 255); ;
+    color:rgba(68, 68, 255);
     font-weight: 800;
     font-size: 30px;
     text-align: start;
@@ -337,4 +337,133 @@ margin-top: 100px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    row-gap: 30px;
+    column-gap: 20px;
+    margin-top: 50px;
 }
+#seccion5 .contenedor-seccion5 .caja-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(204, 204, 204);
+    padding: 20px 0px 10px 0px;
+    border-radius: 30%;
+    border: solid rgba(68, 68, 255) 4px;
+    
+}
+
+#seccion5 .contenedor-seccion5 .caja-logo img{
+    width: 60%;
+    height: auto;
+    
+}
+
+#seccion5 .contenedor-seccion5 .caja-logo:hover{
+    scale: 0.9;
+    transition: all 500ms ease-out;
+    box-shadow: 10px 10px rgba(68, 68, 255, 0.5);
+}
+
+/*----SECCION SEIS----*/
+#seccion6 .titulo-seccion6{
+    text-align: center;
+    position: relative;
+    background-color:white;
+    padding: 5px 20px;
+    border: solid 5px  #2b3035;
+    width: 310px;
+    bottom: 30px;
+    margin: auto;
+    }
+   
+    #seccion6{
+        background-color: #2b3035;
+        margin-top: 150px;
+        padding-bottom: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(./img/bg1.1.png);
+    }    
+    #seccion6 h4{
+        color: white;
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 600;
+        border: 2px white solid;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+
+    #seccion6 form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 70%;
+        margin-top: 15px;
+    }
+
+    #seccion6 form input{
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        padding: 0px 10px;
+        background-color: rgba(68, 68, 255, 0.35);
+        outline: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #seccion6 form textarea{
+        width: 50%;
+        height: 200px;
+        border-radius: 30px;
+        padding: 10px 10px;
+        background-color: rgba(68, 68, 255, 0.35);
+        outline: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #seccion6 .btn6{
+        background-color:rgb(68, 68, 255);
+        width: 50%;
+        height: 50px;
+        border-radius: 30px;
+        border: solid 2px rgb(68, 68, 255);
+    }
+
+    #seccion6 .btn6:hover{
+        background-color:rgb(104, 104, 250) ;
+    }
+
+    #seccion6 .redes{
+        font-size: 40px;
+        margin-top: 20px;
+        background-color: white;
+        padding: 3px 115px;
+        border-radius: 30px;
+    }
+
+    #seccion6 .redes i{
+        color:#2b3035;
+    }
+
+    /*----FOOTER----*/
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    footer h4{
+        font-size: 15px;
+    }
