@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4b5568bc3c.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"v class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- SECCION UNO-->
+      <section id="seccion1">
+        <div class="seccion1-caja1">
+          <h1>Hola, soy <span class="mi-nombre">Facundo</span> Frontend Developer</h1>
+          <a href="" class="btn-cv">Descargar C.V.</a>
+          <div class="redes">
+          <a href=""><i class="fa-solid fa-envelope"></i></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></i></a>
+          <a href=""><i class="fa-brands fa-square-instagram"></i></i> </a>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="seccion1-caja2">
+          <img src="./img/imagenperfil.png" alt="imagen-de-perfil">
+        </div>
+      </section>  
+      <!-- SECCION DOS-->
+      <section id="seccion2"> 
+        <h1>Sobre mi</h1>
+        <div class="caja-contenido">
+          <h2 class="subtitulo-1">Crezcamos Juntos...</h2>
+          <div class="texto-dos-columnas">
+            <p>Hola! Mi nombre es <span class="nombre-completo">Facundo Oviedo</span>, tengo 24 años. Soy de Santa Fe, Argentina.</p>
+            <p> Mi primera aproximación al desarrollo web fue a fines  del año 2022, donde de manera autodidacta aprendí los lenguajes de HTML y CSS. En ese momento encontre una pasión y me propuse seguir adentrandome en este lindo mundo del desarrollo
+            A mitad de este año realicé un curso formal, dictado por la Universidad Tecnológica Nacional, que incluia <span class="html">HTML</span>, <span class="css">CSS</span>, <span class="js">JS</span>, <span class="react">REACT</span>, <span class="boostrap">BOOSTRAP</span>, entre otros. 
+            Mi meta personal es poder seguir afianzando e ir adquiriendo nuevos conocimientos a lo largo de mi recorrido.  
+            </p>
+            <p>
+              Algo que me gusta y me  hace sentir muy comodo dentro del entorno, son los valores de ayuda mutua entre desarrolladores.
+            Ademas de los conocimientos tecnicos propios de la programacion, tengo un muy buen manejo de programas de edición de imagenes y un desarrollado criterio de diseño, ya que tambien soy estudiante avanzado de Arquitectura.
+            </p>
+            <p>Explora mi portafolio para descubrir mis habilidades creativas y técnicas para construir soluciones innovadoras. ¿Tienes un proyecto en mente o simplemente quieres conectarte? ¡Estoy aquí para colaborar contigo en el próximo desafío digital!</p>
+          </div>
+        </div>
+      </section>
+      <!-- SECCION TRES-->
+      <section id="seccion3">
+        <h1 class="titulo-seccion3">Educación</h1>
+        <div class="contendor-arq centrado" >
+          <div class="logo-arq">
+            <i class="fa-solid fa-pen-to-square lapiz-item"></i>
+            <img src="./img/logo-fadu.png" alt="">
+            <h2>UNL-FADU "Arquitectura, Diseño y Urbanismo"</h2>
+          </div>
+          <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress-bar-3"></div>
+            </div>
+            <div class="progress-text" id="progress-text-3">0%</div>
+        </div>
+        <div class="contendor-utn centrado" >
+          <div class="logo-utn">
+            <i class="fa-solid fa-pen-to-square lapiz-item"></i>
+            <img src="./img/logo-utn-ba.png" alt="">
+            <h2>UTN FRBA "Programador Web Inicial-Frontend"</h2>
+          </div>
+          <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress-bar-1"></div>
+            </div>
+            <div class="progress-text" id="progress-text-1">0%</div>
+        </div>
+        <div class="contendor-acir centrado" >
+          <div class="logo-acir">
+            <i class="fa-solid fa-pen-to-square lapiz-item"></i>
+            <img src="./img/logo-acir.jpg" alt="">
+            <h2>ACIR "Graduado Academia de Cultura Inglesa"</h2>
+          </div>
+          <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress-bar-2"></div>
+            </div>
+            <div class="progress-text" id="progress-text-2">0%</div>
+        </div>
+      </section>
+       <!-- SECCION CUATRO-->
+       <section id="seccion4">
+        <h1 class="titulo-seccion4">Proyectos</h1>
+        <div class="contenedor-estilo1">
+          <div class="caja1">
+            <img src="./img/img1.png" alt="">
+            <div class="texto1">
+              <h3>Dieseño Web Estático</h3>
+              <p>Esta es una pagina Web diseñada con los lenguajes de HTML y CSS. Si bien este proyecto no destaca tecnicamente, tiene un valor extra ya que es el primer diseño web que lleve a cabo. El mismo lo realice con los conocimientos que adquirí de manera autodidacta.</p>
+              <div>
+                <a href="">Visitar web</a>
+                <a href="">Ver Codigo</a>
+              </div>
+            </div>
+          </div>
+          <div class="caja2">
+            <h3><span>Nombre:</span> Página Web Responsive</h3>
+            <h3><span>Lenguajes utilizados:</span> HTML Y CSS</h3>
+            <h3><span>Diseño Responsive:</span> SI</h3>
+            <h3><span>Estilo:</span> OnePage</h3>
+          </div>
+        </div> 
+        <div class="contenedor-estilo1">
+          <div class="caja2">
+            <h3><span>Nombre:</span> Aida Style</h3>
+            <h3><span>Lenguajes utilizados:</span> HTML Y CSS</h3>
+            <h3><span>Diseño Responsive:</span> SI</h3>
+            <h3><span>Framework:</span>Boostrap y Fontawesome</h3>
+            <h3><span>Estilo:</span> OnePage</h3>
+          </div>
+          <div class="caja1">
+            <img src="./img/img2.png" alt="">
+            <div class="texto1">
+              <h3>Dieseño Web Estático</h3>
+              <p>Aida Style es una empresa familiar de venta de muebles. El proyecto forma parte de la primer instancia evaluatioria del curso de Programador Web Inicial.Por lo que me parecio oportuno poder dejarle a mi familia una pagina funcional para mostrar algunos de sus trabajos.</p>
+              <div>
+                <a href="">Visitar web</a>
+                <a href="">Ver Codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-estilo1">
+          <div class="caja1">
+            <img src="./img/img3.png" alt="">
+            <div class="texto1">
+              <h3>Dieseño Web Dinamico</h3>
+              <p>El diseño web de Ricky y Morty forma parte de la instancia evaluatoria final del curso de Programador Web Inicial. Donde a partir del consumo de una API se traen los personajes de la serie. Tambien tiene como una demostracion tecnica del proyecto una serie de filtros para especificar la busqueda de los personajes.</p>
+              <div>
+                <a href="">Visitar web</a>
+                <a href="">Ver Codigo</a>
+              </div>
+            </div>
+          </div>
+          <div class="caja2">
+            <h3><span>Nombre:</span> Rick y Morty</h3>
+            <h3><span>Lenguajes utilizados:</span> REACT (html,css,js)</h3>
+            <h3><span>Diseño Responsive:</span> SI</h3>
+            <h3><span>Framework:</span>Boostrap y Fontawesome</h3>
+            <h3><span>Estilo:</span> MultiPage</h3>
+          </div>
+        </div> 
+        <div class="contenedor-estilo1">
+          <div class="caja2">
+            <h3><span>Nombre:</span> Nike</h3>
+            <h3><span>Lenguajes utilizados:</span>REACT (html,css,js)</h3>
+            <h3><span>Diseño Responsive:</span> SI</h3>
+            <h3><span>Framework:</span>Boostrap y Fontawesome</h3>
+            <h3><span>Estilo:</span>MultiPage</h3>
+          </div>
+          <div class="caja1">
+            <img src="./img/img4.png" alt="">
+            <div class="texto1">
+              <h3>Dieseño Web Estático</h3>
+              <p>Mas allá de las aptitudes tecnicas lo fantastico de esta pagina es que surgio gracias a las relaciones formadas en el curso de PWI. Donde con mi compañero Francisco Meglia, al finalizar el curso, decidimos poner en practica lo aprendido y colaborar en una pagina en conjunto. Donde puedo decir que seguimos afianzando y adquiriendo conocimientos. Una muy fructuosa experiencia.</p>
+              <div>
+                <a href="">Visitar web</a>
+                <a href="">Ver Codigo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECCION CINCO-->
+      <section id="seccion5">
+        <h1 class="titulo-seccion5">Habilidades</h1>
+        <div class="contenedor-seccion5">
+          <div class="caja-logo">
+            <img src="./img/vsc.png" alt="logo-visual-studio-code">
+            <h3>VSC</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/html.png" alt="logo-html">
+            <h3>HTML</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/css.png" alt="logo-css">
+            <h3>CSS</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/js.png" alt="logo-js">
+            <h3>JS</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/react.png" alt="logo-react">
+            <h3>REACT</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/boostrap.png" alt="logo-boostrap">
+            <h3>BOOSTRAP</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/font.png" alt="logo-fontawesome">
+            <h3>FONTAWESOME</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/photoshop.png" alt="logo-photoshop">
+            <h3>PSD</h3>
+          </div>
+          <div class="caja-logo">
+            <img src="./img/corel.png" alt="logo-corel">
+            <h3>COREL DRAW</h3>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+        const lenis = new Lenis()
+
+            function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+            }
+
+            requestAnimationFrame(raf)
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
