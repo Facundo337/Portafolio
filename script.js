@@ -1,3 +1,4 @@
+// BARRAS DE PROGRESO
 const progressBars = document.querySelectorAll('.progress');
 const progressTexts = document.querySelectorAll('.progress-text');
 
@@ -33,3 +34,5 @@ document.addEventListener("scroll", () => {
         }
     }
 });
+
+//DESCARGAR  CV

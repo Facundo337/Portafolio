@@ -7,13 +7,22 @@
     padding: 0px;
     font-family: 'IBM Plex Mono', monospace, sans serif;
 }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+}
 
 .navbar{
     margin-bottom:50px ;
-    
+    border-bottom: white solid 3px;
+}
+.navbar-nav{
+    margin-right: 15px;
 }
 .navbar-brand{
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 /*----SECCION NUMERO 1----*/
@@ -21,9 +30,10 @@
 #seccion1{
     display: flex;
     width: 90%;
-    margin: 40px auto 0px auto;
+    margin: 0px auto 0px auto;
     justify-content:center;
     align-items: center;
+    padding-top: 60px;
     
 }
 
@@ -57,6 +67,14 @@
     justify-content: flex-end;
     align-items: center;
 }
+.wpp{
+    position: fixed;
+    bottom: -10px;
+    right: 30px;
+    font-size: 60px;
+    color: #4CAF50;
+    z-index: 1;
+}
 
 /*----SECCION NUMERO 2----*/
 
@@ -72,7 +90,7 @@ position: absolute;
 background-color: white;
 padding: 5px 20px;
 border: solid 5px  #2b3035;
-bottom: -100px;
+bottom: -50px;
 left: 40%;
 }
 
@@ -194,7 +212,7 @@ background-color: white;
 padding: 5px 20px;
 border: solid 5px  #2b3035;
 left: 40%;
-bottom: -800px;
+bottom: -745px;
 }
 
 .lapiz-item{
@@ -373,7 +391,7 @@ margin-top: 100px;
     padding: 5px 20px;
     border: solid 5px  #2b3035;
     width: 310px;
-    bottom: 30px;
+    bottom: 35px;
     margin: auto;
     }
    
@@ -466,4 +484,5 @@ margin-top: 100px;
 
     footer h4{
         font-size: 15px;
+        font-weight: 600;
     }
