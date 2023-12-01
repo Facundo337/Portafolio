@@ -110,6 +110,9 @@ header{
     align-items: center;
     margin: 0px 50px;
 }
+#seccion2 p{
+    text-align: justify;
+} 
 #seccion2 .caja-contenido h2{
     font-size: 60px;
     margin: 50px 0px;
