@@ -522,6 +522,9 @@ margin-bottom: 50px;
         #seccion2 .caja-contenido .texto-dos-columnas{
             column-count: 1;}
 
+        #seccion2 p{
+            text-align: justify;
+        }    
         /*----SECCION TRES----*/
         #seccion3{
             display: flex;
@@ -602,19 +605,19 @@ margin-bottom: 50px;
             border: solid 2px #2b3035;
         }
 
-        /*----SECCION CUATRO----*/
+        /*----SECCION CINCO----*/
         #seccion5 .contenedor-seccion5 .caja-logo{
             width: 30%;
         }
         #seccion5 .contenedor-seccion5 .caja-logo h3{
-            font-size: 18px;
+            font-size: 14px;
         }
         #seccion5 .contenedor-seccion5 .caja-logo img{
             width: 40%;
             
         }
 
-        /*----SECCION CUATRO----*/
+        /*----SECCION SEIS----*/
         #seccion6 form input{
             width: 100%;
         }
@@ -622,4 +625,12 @@ margin-bottom: 50px;
             width: 100%;
         }
 
+        #seccion6 .redes{
+            padding: 1px 50px;
+        }
+
+         /*----SECCION FOOTER----*/
+         footer h4{
+            text-align: center;
+        }
     }
