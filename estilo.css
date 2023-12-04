@@ -405,18 +405,6 @@ margin-bottom: 50px;
         font-weight: 600;
     }
 
-    #seccion6 form textarea{
-        width: 50%;
-        height: 200px;
-        border-radius: 30px;
-        padding: 10px 10px;
-        background-color: rgba(68, 68, 255, 0.35);
-        outline: none;
-        color: white;
-        font-size: 20px;
-        font-weight: 600;
-    }
-
     #seccion6 .btn6{
         background-color:rgb(68, 68, 255);
         width: 50%;
@@ -501,6 +489,9 @@ margin-bottom: 50px;
             margin:10px 0px 0px 15px;
         }
 
+        .redes i{
+            font-size: 25px;
+        }
         /*----SECCION DOS----*/
         #seccion2{
             padding: 20px 0px 100px 0px;
